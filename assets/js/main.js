@@ -60,7 +60,7 @@
 			// Title Bar.
 				$(
 					'<div id="titleBar">' +
-						'<a href="#navPanel" class="toggle"></a>' +
+						'<a href="#navPanel"aria-label="Menu Principal"  class="toggle"></a>' +
 					'</div>'
 				)
 					.appendTo($body);
