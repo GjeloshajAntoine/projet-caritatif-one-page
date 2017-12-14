@@ -21,7 +21,6 @@
 		});
 
 	$(function() {
-s
 		var	$window = $(window),
 			$body = $('body');
 
