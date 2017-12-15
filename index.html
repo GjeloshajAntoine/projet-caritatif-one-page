@@ -301,6 +301,22 @@ crossorigin="anonymous"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/upup.min.js"></script>
+			<script>
+			  UpUp.start({
+			    'content-url': 'index.html', // show this when the user is offline
+			    'assets': [                 // define additional assets needed while offline:
+						'https://code.jquery.com/jquery-3.2.1.min.js',
+						'assets/js/jquery.dropotron.min.js',           // such as images,
+			      'assets/js/skel.min.js',        // custom stylesheets,
+			      'assets/js/skel-viewport.min.js', // dynamic requests with data per user,
+						'assets/js/util.js',
+			      'assets/js/main.js',      // javascript libraries and frameworks,
+			      'assets/css/main.css',          // videos,
+			      'style.css'            // and more.
+			    ]
+			  });
+			</script>
 
 	</body>
 </html>
